@@ -14,10 +14,18 @@ html, body{
     background-image: url("../imgs/background-header.jpg");
     background-position: left top;
     background-size: cover;
-    text-align: start;
+    position: relative; /* Al definir como posición relativa el contenedor padre, podemos aplicarle posición absoluta al elemento que se quiere fijar, tomando solamente en referencia el elemento contenedor y no todo el body*/
 }
 .top h2{
-    padding-right: 82%;
+    position: absolute;
+    left: 3%;
+    top: 65%; /* entonces aca aplicando posición absoluta, lo fijamos o posicionamos teniendo en cuenta solo el tamaño del contenedor padre( <header class="top>" ) */
+    padding-right: 70%;
+}
+.top h1{
+    position: absolute;
+    left: 3%;
+    top: 15%;
 }
 .grid-container{
     display: grid;
