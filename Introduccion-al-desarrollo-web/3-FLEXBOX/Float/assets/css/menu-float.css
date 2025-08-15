@@ -1,0 +1,27 @@
+body, menu{
+    padding: 0;
+    margin: 0;
+}
+menu ul{
+    margin: 0;
+    text-decoration: none;
+}
+li{
+    float: left;
+}
+menu li{
+    margin-right: 50px;
+}
+menu{
+    background-color: black; 
+    color: whitesmoke;
+    line-height: 50px;
+    display: flow-root;
+}
+menu a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+menu a:hover{
+    background-color: lightblue;
+}

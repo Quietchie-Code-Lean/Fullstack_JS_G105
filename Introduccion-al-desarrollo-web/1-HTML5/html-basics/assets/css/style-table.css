@@ -1,0 +1,28 @@
+body{
+    background-color: darkgrey;
+    font-family: fantasy;
+}
+.text-section{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: whitesmoke;
+}
+.img-section{
+    background-image: url("/assets/imgs/imagen-background.jpeg");
+    background-color: gray;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sep-text{
+    margin-bottom: 10%;
+}
+
+table{width: 50%; margin: auto; margin-top: 6rem;
+background-color: lightsteelblue;}
+table, th, td{border-bottom: solid 1px #ddd; border-collapse: collapse;}
+thead{background-color: cornflowerblue; color: darkcyan; font-weight: 800;}

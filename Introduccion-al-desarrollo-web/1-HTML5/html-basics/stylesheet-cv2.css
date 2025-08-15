@@ -1,0 +1,9 @@
+body{
+    background-color: darkseagreen;
+    color: darkred;}
+table, th, td, tr{
+    border: 1px solid; black
+}
+#centrar-contenido{
+    margin-left: 150px;
+}

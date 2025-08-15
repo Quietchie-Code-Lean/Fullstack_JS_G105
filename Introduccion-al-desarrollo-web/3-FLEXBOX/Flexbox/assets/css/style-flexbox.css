@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 25%;
+    border: solid 2px black;
+}
+.box img{
+    width: 100%;
+    
+
+}
+.menu-navegacion{
+    background-color: coral;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+.menu-navegacion li{
+    display: inline-block;
+    padding-left: 25px;
+}
+.menu-navegacion a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu-navegacion a:hover{
+    background-color: darksalmon;
+}
+.section{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: center;
+}

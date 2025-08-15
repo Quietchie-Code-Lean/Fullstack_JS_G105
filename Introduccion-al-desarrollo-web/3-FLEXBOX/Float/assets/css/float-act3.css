@@ -1,0 +1,8 @@
+.features{
+    background-color: lightcoral;
+    display: flow-root;
+}
+.features p{
+    float: left;
+    width: 33%;
+}

@@ -1,0 +1,14 @@
+
+section h1{
+    text-align: center;
+    font-size: 3em;
+    background-color: grey;
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    text-align: center;
+    background-color: grey;
+
+}

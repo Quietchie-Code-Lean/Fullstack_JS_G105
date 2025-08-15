@@ -1,0 +1,27 @@
+body{
+    background-color: gainsboro;
+}
+.act1 h1{
+    background-color: black;
+    color: grey;
+    text-align: end;
+    padding: 1%;
+    margin-right: 20%;
+    border: 2px solid chocolate;
+}
+.act1 p{
+    display: inline-block;
+    width: 50%;
+}
+.act2 h1{
+    background-color: black;
+    color: grey;
+    text-align: start;
+    padding: 1%;
+    margin-left: 20%;
+    border: 2px solid chocolate;
+}
+.act2 p{
+    display: flex;
+    width: 45%;
+}

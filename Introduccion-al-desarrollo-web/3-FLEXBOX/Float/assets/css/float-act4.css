@@ -1,0 +1,18 @@
+section{
+    border: solid 1px black;
+}
+img{
+    float: left;
+}
+/* Solucion del problema de elementos float mayor que el tamaño del elemento padre. FORMA ANTIGUA */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.solucion-flow-root{
+    display: flow-root;
+}
+.solucion-overflow{
+    overflow: auto;
+}
