@@ -1,0 +1,97 @@
+body, section, li, ul , menu, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+/* Navbar section */
+.navbar img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+}
+.navbar ul {
+    margin-right: 50px;
+}
+.navbar li {
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.navbar a {
+    color: darkslategray;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: darkmagenta;
+}
+/* Banner section */
+.banner {
+    max-width: 100%;
+    height: 500px;
+    background-image: url(../imgs/fantastic-fungi1.jpg);
+    background-size: cover;
+}
+.banner h1{
+    color: darkslategray;
+    font-size: 5em;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    text-shadow: 5px 5px 15px gainsboro;
+}
+.banner h2 {
+    color: darkslategray;
+    font-size: 2.5em;
+    position: absolute;
+    left: 5%;
+    top: 65%;
+    text-shadow: 3px 3px 10px gainsboro;
+}
+
+/* About us section */
+.about {
+    padding: 10px;
+    border: 2px solid darkslategray;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.about h2 {
+    text-align: left;
+}
+
+/* Gallery section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container img {
+    max-width: 100%;
+    border: solid; color: black;
+}
+.flex-item {
+    max-width: 30%;
+    padding: 1%;
+    justify-items: center;
+}
+.container h2 {
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Genetics section */
+
+.card-genetics {
+    
+}
