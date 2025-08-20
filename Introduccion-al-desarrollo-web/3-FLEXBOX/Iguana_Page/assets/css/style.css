@@ -1,8 +1,17 @@
+@font-face {           /*Agregando fuente de manera local, para tenerla deltro del mismo proyecto*/
+        font-family: Raleway;
+        src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+        font-weight: 400;
+    }
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
     color: whitesmoke;
+    font-family: Raleway;
+    
 }
+
 
 /* ---- navbar IGUANAS ----  */
 .navbar {
