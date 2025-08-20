@@ -1,0 +1,155 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+/* ---- navbar IGUANAS ----  */
+.navbar {
+    height: 75px;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+    align-content: center;   
+}
+
+/* ---- header BANNER ----  */
+.banner {
+    height: 730px;
+    width: 100vw;
+    background-image: url(../imgs/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* ---- main INFO----   */
+/* ---Aplicando display: block sobre la imagen, y aplicando float tanto al parrafo, como al contenedor de la imagen <figure> para que ambos elementos se muestren a sus respectivos lados*/
+
+.info {
+    height: 350px;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+}
+.info figure {
+    margin: 0;
+    float: right;
+}
+
+.info p {
+    padding-left: 110px;
+    padding-top: 85px;
+    float: left;
+    width: 35%;
+    text-align: left;
+
+}
+.info img {
+    height: 240px;
+    width: 400px;
+    padding-right: 100px;
+    padding-top: 55px;
+    display: block;
+    float: right;
+    
+}
+/*  ---- main INFO---- aplicando flex */
+/* .info {
+    height: 350px;
+    width: 100vw;
+    background-color: black;
+    display: flex;           
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.info p {
+    width: 35%;
+    padding: 20px;
+}
+
+.info figure {
+    margin: 0;
+}
+
+.info img {
+    height: 240px;
+    width: 400px;
+} */
+
+
+
+/* ---- section FEATURES ----  */
+.features {
+    height: 350px;
+    width: 100vw;
+    background-color: rgb(30, 26, 19);
+}
+.features h2 {
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 10vh;
+}
+.container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 10vh;
+}
+.container div {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* ---- section GALLERY ----  */
+.gallery {
+    height: 350px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.item-img1{
+    height: 200px;
+    width: 310px;
+    background-image: url(../imgs/iguana-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-img2{
+    height: 200px;
+    width: 310px;
+    background-image: url(../imgs/iguana-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-img3{
+    height: 200px;
+    width: 310px;
+    background-image: url(../imgs/iguana-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* ---- footer END ----  */
+.end {
+    height: 100px;
+    width: 100vw;
+    font-size: 1.5em;
+    background-color: rgb(30, 26, 19);
+    text-align: center;
+    align-content: center;
+}
+
+.end a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.end a:hover {
+    color: blueviolet;
+}
