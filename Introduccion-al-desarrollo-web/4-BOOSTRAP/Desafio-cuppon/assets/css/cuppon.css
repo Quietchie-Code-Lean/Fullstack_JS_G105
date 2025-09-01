@@ -1,0 +1,36 @@
+/* I've imported the type font this way just to try a new manner to do it */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Roboto, Raleway, Bricolage;
+}
+#hero-banner {
+    width: 100vw;
+    height: 400px;
+    background-image: url("../img/bg-hero-carrousel-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.adjust-img1 {
+    width: 150px;
+    height: 45px;
+    align-items: center;
+}
+
+.uvita {
+    background-color: rgba(255, 48, 48, 0.616);
+}
+
+.bg-img {
+    background-image: url(../img/Untitled+\(Banner+\(Landscape\)\).webp);
+    background-size: cover;
+    background-position: center;
+}
+.image-sizing-1 {
+    width: 400px;
+    height: 250px;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px rgba(255, 48, 48, 0.616) ;
+}
