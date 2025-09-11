@@ -27,21 +27,21 @@ This repo represents not only the code I write, but also the path I’m followin
 
 ## 1. Intro to Web Development
 ### HTML5:
-- [HTML5](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/01-Intro-desarrollo-web/Html5)
+-
     #### Projects Html:
     - [Project 1: html-basics](link-al-repo)
     - [Project 2: Curriculum-vitae](link-al-repo)
-    - [Project 3: Animal-Shelter](link-al-repo)
+    - [Project 3: Animal-Shelter](https://github.com/Quietchie-Code-Lean/Animal-shelter)
  
 ### CSS3:
-- [CSS3](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/01-Intro-desarrollo-web/Css3)
+-
     #### Projects CSS3:
     - [Project 1: Intro-css](link-al-repo)
     - [Project 2: Royal-queen-seeds](link-al-repo)
     - [Project 3: Tejidos-landing-page](link-al-repo)
  
 ### Flexbox:  
-- [Flexbox](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/01-Intro-desarrollo-web/Flexbox)
+-
     #### Projects Flexbox:
     - [Project 1: Flexbox-basics](link-al-repo)
     - [Project 2: Float-basics](link-al-repo)
@@ -50,25 +50,23 @@ This repo represents not only the code I write, but also the path I’m followin
     - [Project 5: Quietchie-page](link-al-repo)
 
 ### Boostrap:
-- [Bootstrap](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/01-Intro-desarrollo-web/Bootstrap)
+-
     #### Projects Boostrap:
     - [Project 1: Boostrap-basics](link-al-repo)
     - [Project 2: Desafío-cuppon](link-al-repo)
     - [Project 3: Oak&Iron](link-al-repo)
 
 ### Git & GitHub:  
-- [Git & GitHub](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/01-Intro-desarrollo-web/Git-Github)
-- 
+-
     #### Projects GitHub:
     - [Project 1: ***** ](link-al-repo)
     - [Project 2: ***** ](link-al-repo)
     - [Project 3: ***** ](link-al-repo)
 
 ### Colavorativo & GitHub-Pages:  
-- [GitHub Pages](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/01-Intro-desarrollo-web/Github-Pages)
--  
+ -
     #### Projects Colavorative & Pages:
-    - [Project 1: ***** ](link-al-repo)
-    - [Project 2: ***** ](link-al-repo)
-    - [Project 3: ***** ](link-al-repo)
+    - [Project 1: Collaborative-agency-pages ](https://github.com/Quietchie-Code-Lean/Collaborative-agency-pages)
+    - [Project 2: Collaborative-creative-pages ](https://github.com/Quietchie-Code-Lean/Collaborative-creative-pages)
+    - [Project 3: Collaborative-grayscale-pages ](https://github.com/Quietchie-Code-Lean/Collaborative-grayscale-pages)
   
