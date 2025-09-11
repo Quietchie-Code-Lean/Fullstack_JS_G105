@@ -27,21 +27,21 @@ This repo represents not only the code I write, but also the path I’m followin
 
 ## 1. Intro to Web Development
 ### HTML5:
-
+-
     #### Projects Html:
     - [Project 1: html-basics](link-al-repo)
     - [Project 2: Curriculum-vitae](link-al-repo)
     - [Project 3: Animal-Shelter]([link-al-repo](https://github.com/Quietchie-Code-Lean/Animal-shelter))
  
 ### CSS3:
-
+-
     #### Projects CSS3:
     - [Project 1: Intro-css](link-al-repo)
     - [Project 2: Royal-queen-seeds](link-al-repo)
     - [Project 3: Tejidos-landing-page](link-al-repo)
  
 ### Flexbox:  
-
+-
     #### Projects Flexbox:
     - [Project 1: Flexbox-basics](link-al-repo)
     - [Project 2: Float-basics](link-al-repo)
@@ -50,21 +50,21 @@ This repo represents not only the code I write, but also the path I’m followin
     - [Project 5: Quietchie-page](link-al-repo)
 
 ### Boostrap:
-
+-
     #### Projects Boostrap:
     - [Project 1: Boostrap-basics](link-al-repo)
     - [Project 2: Desafío-cuppon](link-al-repo)
     - [Project 3: Oak&Iron](link-al-repo)
 
 ### Git & GitHub:  
-
+-
     #### Projects GitHub:
     - [Project 1: ***** ](link-al-repo)
     - [Project 2: ***** ](link-al-repo)
     - [Project 3: ***** ](link-al-repo)
 
 ### Colavorativo & GitHub-Pages:  
- 
+ -
     #### Projects Colavorative & Pages:
     - [Project 1: Collaborative-agency-pages ](https://github.com/Quietchie-Code-Lean/Collaborative-agency-pages)
     - [Project 2: Collaborative-creative-pages ](https://github.com/Quietchie-Code-Lean/Collaborative-creative-pages)
