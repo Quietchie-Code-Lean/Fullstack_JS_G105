@@ -31,7 +31,7 @@ This repo represents not only the code I write, but also the path I’m followin
     #### Projects Html:
     - [Project 1: html-basics](link-al-repo)
     - [Project 2: Curriculum-vitae](link-al-repo)
-    - [Project 3: Animal-Shelter]([link-al-repo](https://github.com/Quietchie-Code-Lean/Animal-shelter))
+    - [Project 3: Animal-Shelter](https://github.com/Quietchie-Code-Lean/Animal-shelter)
  
 ### CSS3:
 -
