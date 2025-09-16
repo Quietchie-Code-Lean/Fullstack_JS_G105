@@ -36,15 +36,15 @@ This repo represents not only the code I write, but also the path I’m followin
 ### CSS3:
 -
     #### Projects CSS3:
-    - [Project 1: Intro-css](link-al-repo)
-    - [Project 2: Royal-queen-seeds](link-al-repo)
-    - [Project 3: Tejidos-landing-page](link-al-repo)
+    - [Project 1: Intro-css](https://github.com/Quietchie-Code-Lean/Intro-CSS)
+    - [Project 2: Royal-queen-seeds](https://github.com/Quietchie-Code-Lean/Royal-Queen-Seeds)
+    - [Project 3: Tejidos-landing-page](https://github.com/Quietchie-Code-Lean/Tejidos-landing-page)
  
 ### Flexbox:  
 -
     #### Projects Flexbox:
-    - [Project 1: Flexbox-basics](link-al-repo)
-    - [Project 2: Float-basics](link-al-repo)
+    - [Project 1: Flexbox-basics](https://github.com/Quietchie-Code-Lean/Flexbox-basics)
+    - [Project 2: Float-basics](https://github.com/Quietchie-Code-Lean/Float-basics)
     - [Project 3: Fantastic-Fungi](link-al-repo)
     - [Project 4: Iguana-page](link-al-repo)
     - [Project 5: Quietchie-page](link-al-repo)
@@ -58,12 +58,12 @@ This repo represents not only the code I write, but also the path I’m followin
 
 ### Git & GitHub:  
 -
-    #### Projects GitHub:
-    - [Project 1: ***** ](link-al-repo)
-    - [Project 2: ***** ](link-al-repo)
+    #### GitHub - GitHub-Pages:
+    - [Final Project - Portfolio-Developer](https://github.com/Quietchie-Code-Lean/Portfolio-Developer)
+    - [Forked project - fdsw-github](https://github.com/Quietchie-Code-Lean/fdsw-github)
     - [Project 3: ***** ](link-al-repo)
 
-### Colavorativo & GitHub-Pages:  
+### Colavorativo & Vercel:  
  -
     #### Projects Colavorative & Pages:
     - [Project 1: Collaborative-agency-pages ](https://github.com/Quietchie-Code-Lean/Collaborative-agency-pages)
