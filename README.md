@@ -45,16 +45,16 @@ This repo represents not only the code I write, but also the path I’m followin
     #### Projects Flexbox:
     - [Project 1: Flexbox-basics](https://github.com/Quietchie-Code-Lean/Flexbox-basics)
     - [Project 2: Float-basics](https://github.com/Quietchie-Code-Lean/Float-basics)
-    - [Project 3: Fantastic-Fungi](link-al-repo)
-    - [Project 4: Iguana-page](link-al-repo)
-    - [Project 5: Quietchie-page](link-al-repo)
+    - [Project 3: Fantastic-Fungi](https://github.com/Quietchie-Code-Lean/Fantastic-Fungi)
+    - [Project 4: Iguana-page](https://github.com/Quietchie-Code-Lean/Iguana-Page)
+    - [Project 5: Quietchie-page](https://github.com/Quietchie-Code-Lean/Quietchie-Page)
 
 ### Boostrap:
 -
     #### Projects Boostrap:
-    - [Project 1: Boostrap-basics](link-al-repo)
-    - [Project 2: Desafío-cuppon](link-al-repo)
-    - [Project 3: Oak&Iron](link-al-repo)
+    - [Project 1: Boostrap-basics](https://github.com/Quietchie-Code-Lean/Boostrap-Basics)
+    - [Project 2: Desafío-cuppon](https://github.com/Quietchie-Code-Lean/Desafio-Cuppon)
+    - [Project 3: Oak&Iron](https://github.com/Quietchie-Code-Lean/Oak-Iron)
 
 ### Git & GitHub:  
 -
