@@ -10,8 +10,8 @@ body, html, h1, h2, h3{
     flex-direction: column;
     justify-content: space-between;
     height: 500px;
-    border-top: 5px solid rgb(68, 68, 68);
-    border-bottom: 5px solid rgb(68, 68, 68);
+    border-top: 10px solid rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(0, 0, 0);
     background-image: url(../imgs/hero-banner/hero-3.jpg);
     background-size: cover;
     background-position: center;
@@ -43,7 +43,7 @@ body, html, h1, h2, h3{
     text-decoration: none;
 }
 .navbar a:hover {
-    color: mediumvioletred;
+    color: darkorange;
 }
 .title {
     margin-right: 50px;
@@ -71,7 +71,14 @@ body, html, h1, h2, h3{
 /* Fin NAVBAR style */
 
 .bg-curriculum {
-    background-color: rgb(4, 31, 68);
+    /* background-image: radial-gradient(red, green, blue); */
+    background-image: radial-gradient(
+        rgb(76, 237, 254),
+        rgb(22, 127, 254),
+        rgb(6, 65, 146),
+        rgb(4, 31, 68), 
+        rgb(0, 13, 28),
+        black);
 }
 
 /* Inicio ABOUT style */
@@ -85,11 +92,15 @@ body, html, h1, h2, h3{
 .about p{
     padding-left: 20px;
 }
+.about h2 {
+    font-size: 2.5rem;
+}
 
 /* Fin ABOUT style */
 
 /* Inicio TECHNICAL-SKILLS style */
 .t-skills {
+    border-top: 1px dashed black ;
     color: #ffffff;
     text-align: center;
     width: 80%;
@@ -98,7 +109,8 @@ body, html, h1, h2, h3{
 }
 .t-skills h2 {
     font-size: 2.5rem;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .container {
@@ -127,17 +139,142 @@ body, html, h1, h2, h3{
 
 
 
+/* Inicio LENGUAJE style */
+
+.lang-container h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: white;
+}
+.lang-container {
+    border-top: 1px dashed black ;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.lang-container img {
+    height: 80px;
+    width: 80px;
+    transition: 2s ease-in-out;
+    /* transition: transform 2s ease-in-out; */
+}
+.lang-container img:hover{
+    transform: rotateY(180deg);
+}
+
+.card-lang {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.card-lang img{
+    align-items: center;
+    padding: 30px;
+}
+.card-lang h3{
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+.card-lang p{
+    padding: 15px;
+    margin: 0;
+    text-align: end;
+}
+/* Fin LENGUAJE style */
+
+
+/* Inicio EXPERIENCE style */
+.experience {
+    border-top: 1px dashed black ;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.experience h2 {
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+.experience p{
+    margin: 0;
+    padding: 20px;
+    padding-top: 0.5rem;
+}
+/* CARD-BODY CARD-TOP component */
+.card-body {
+    width: 30rem;
+}
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.cards-right {
+    
+}
+
+
+/* PILL-BADGE component*/
+.pill-badge {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+     background-image: radial-gradient(
+        rgb(76, 237, 254),
+        rgb(22, 127, 254),
+        rgb(6, 65, 146),
+        rgb(4, 31, 68), 
+        rgb(0, 13, 28));
+}
+/* Fin EXPERIENCE style */
+
+
+/* Inicio EDUCATION style */
+.education {
+    border-top: 1px dashed black ;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.education h2 {
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+.education p {
+    margin: 0;
+    padding: 20px;
+}
+/* Fin EDUCATION style */
+
+
 /* Inicio CONTACT style */
 .contact {
     background-image: url(../imgs/contact-section/conection-4.jpg);
     background-position: center;
     background-size: cover;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
     width: 100%;
     text-align: center;
     padding-bottom: 25px;
 }
 .contact-header {
     background-color: rgba(0, 0, 0, 0.500);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.500);
 }
 .contact-header p{
     color: #ffffff;
