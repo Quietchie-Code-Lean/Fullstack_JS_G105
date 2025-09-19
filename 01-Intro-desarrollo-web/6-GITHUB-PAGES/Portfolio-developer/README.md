@@ -31,5 +31,3 @@ In this repository you can find the commits I made to contribute to my companion
 #### Img Commits on terminal:
 [![img-commits-fork-consola.png](https://i.postimg.cc/QxfkDkJj/img-commits-fork-consola.png)](https://postimg.cc/cr88M3zz)
 
-
-
