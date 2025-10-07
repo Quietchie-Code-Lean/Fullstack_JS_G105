@@ -70,3 +70,36 @@ This repo represents not only the code I write, but also the path I’m followin
     - [Project 2: Collaborative-creative-pages ](https://github.com/Quietchie-Code-Lean/Collaborative-creative-pages)
     - [Project 3: Collaborative-grayscale-pages ](https://github.com/Quietchie-Code-Lean/Collaborative-grayscale-pages)
   
+
+
+## 2. Advanced CSS
+### Flexbox:
+-
+    #### Projects Flexbox:
+    - [Project 1: Basics-flexbox](https://github.com/Quietchie-Code-Lean/Basics-flexbox)
+    - [Project 2: Menu-flexbox](https://github.com/Quietchie-Code-Lean/menu-flexbox)
+    - [Project 3: Propieties-flexbox](https://github.com/Quietchie-Code-Lean/Propieties-flexbox)
+
+### Grid:
+-
+    #### Projects Grid:
+    - [Project 1: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 2: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 3: ](https://github.com/Quietchie-Code-Lean/)
+
+### Media Queries:
+-
+    #### Projects Media Queries:
+    - [Project 1: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 2: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 3: ](https://github.com/Quietchie-Code-Lean/)
+
+### Animations CSS:
+-
+    #### Projects Animations CSS:
+    - [Project 1: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 2: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 3: ](https://github.com/Quietchie-Code-Lean/)
+
+
+
