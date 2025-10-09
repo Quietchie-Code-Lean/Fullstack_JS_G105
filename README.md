@@ -79,27 +79,28 @@ This repo represents not only the code I write, but also the path I’m followin
     - [Project 1: Basics-flexbox](https://github.com/Quietchie-Code-Lean/Basics-flexbox)
     - [Project 2: Menu-flexbox](https://github.com/Quietchie-Code-Lean/menu-flexbox)
     - [Project 3: Propieties-flexbox](https://github.com/Quietchie-Code-Lean/Propieties-flexbox)
+    - [Project 3: Messaging-system](https://github.com/Quietchie-Code-Lean/Messaging-system)
 
 ### Grid:
 -
     #### Projects Grid:
-    - [Project 1: ](https://github.com/Quietchie-Code-Lean/)
-    - [Project 2: ](https://github.com/Quietchie-Code-Lean/)
-    - [Project 3: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 1: Basics-Grid]([https://github.com/Quietchie-Code-Lean/](https://github.com/Quietchie-Code-Lean/Basics-grid))
+    - [Project 2: Grid-Lauout-galleries](https://github.com/Quietchie-Code-Lean/Grid-layout-galleries)
+    
 
 ### Media Queries:
 -
     #### Projects Media Queries:
-    - [Project 1: ](https://github.com/Quietchie-Code-Lean/)
-    - [Project 2: ](https://github.com/Quietchie-Code-Lean/)
-    - [Project 3: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 1: Basics-Breakpoints](https://github.com/Quietchie-Code-Lean/Basics-Breakpoints)
+    - [Project 2: Flexible-profile](https://github.com/Quietchie-Code-Lean/Flexible-profile)
+    - [Project 3: Layout-media-queries](https://github.com/Quietchie-Code-Lean/Layout-media-queries)
 
 ### Animations CSS:
 -
     #### Projects Animations CSS:
-    - [Project 1: ](https://github.com/Quietchie-Code-Lean/)
-    - [Project 2: ](https://github.com/Quietchie-Code-Lean/)
-    - [Project 3: ](https://github.com/Quietchie-Code-Lean/)
+    - [Project 1: Basics-Transitions](https://github.com/Quietchie-Code-Lean/Basics-transitions)
+    - [Project 2: Transform-CSS](https://github.com/Quietchie-Code-Lean/Transform-css)
+    - [Project 3: Animations-CSS](https://github.com/Quietchie-Code-Lean/Animations-CSS)
 
 
 
