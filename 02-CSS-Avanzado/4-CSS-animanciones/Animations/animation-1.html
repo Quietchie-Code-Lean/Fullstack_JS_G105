@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejemplo de animaciones en CSS</title>
+        <style>
+            .box {
+                width: 100px;
+                height: 100px;
+                margin-top: 50px;
+                background-color: olivedrab;
+                position: relative;
+                animation-name: cubix;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-delay: 1s;
+            }
+            @keyframes cubix {
+                from { left: 0px; }
+                to { left: 400px; }
+                /* La animación moverá la caja de 0px a 200px a la izquierda */
+            }
+            .container {
+                width:100%;
+                margin-bottom: 50px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+            .container2 {
+                width:100%;
+                margin-bottom: 50px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+            .text {
+                font-size:3em;
+                color: olivedrab;
+                background-color: black;
+                animation: move 2s infinite;
+                animation-direction: alternate;
+            }
+            .text2 {
+                font-size:3em;
+                color: olivedrab;
+                background-color: black;
+                animation: twist 6s infinite;
+                animation-direction: alternate;
+            }
+            @keyframes move {
+                from{transform:translateX(0);}
+                to{transform:translateX(200px);}
+            }
+
+            @keyframes twist {
+                0% {
+                transform: translateX(0);
+                }
+                25% {
+                transform: translateX(100px);
+                transform: rotateX(45deg);
+                }
+                50% {
+                transform: translateX(200px);
+                transform: rotateX(90deg)
+                ;
+                } 75% {
+                transform: translateX(-100px);
+                transform: rotateX(-45deg);
+                }
+                100% {
+                transform: translateX(0);
+                
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+        <!-- La caja se anima con la propiedad animation definida -->
+         <div class="container">
+            <h1 class="text">¡IKIGAI!</h1>
+        </div>
+        <div class="container2">
+            <h1 class="text2">¡YONKAI!</h1>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes with porcentages</title>
+<style>
+    body{
+        height: 90vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        border: 2px solid black;
+        border-radius: 50px;
+        background-color: darkolivegreen;
+    }
+    .box{
+        height: 500px;
+        width: 500px;
+        border: 2px solid black;
+        border-radius: 25px;
+        text-align: center;
+        background-color: rgb(169, 169, 169);
+        animation: monocromatico 6s infinite 1s;
+        animation-direction: alternate;
+        transition: transform 3s ease-in-out;
+    }
+    .box:hover{
+        transform: scale(1.9, 1.1)
+       }
+
+    @keyframes monocromatico {
+        15%{
+            background-color: rgb(236, 84, 84);
+        }
+        25%{
+            background-color: rgb(149, 149, 149);
+        }
+        45%{
+            background-color: rgb(165, 24, 24);
+        }
+        60%{
+            background-color: rgb(149, 149, 149);
+        }
+        75%{
+            background-color: rgb(107, 0, 0);
+        }
+        90%{
+            background-color: rgb(149, 149, 149);
+        }
+        100%{
+            background-color: rgb(169, 169, 169);
+        }
+    }
+    .color1{
+        background-color: rgb(236, 84, 84);
+    }
+    .color2{
+        background-color: rgb(149, 149, 149);
+    }
+    .color3{
+        background-color: rgb(165, 24, 24);
+    }
+    .color4{
+        background-color: rgb(149, 149, 149);
+    }
+    .color5{
+        background-color: rgb(107, 0, 0);
+    }
+    .color6{
+        background-color: rgb(149, 149, 149);
+    }
+    .color7{
+        background-color: rgb(169, 169, 169);
+    }
+
+</style>
+</head>
+<body>
+    <div class="box">
+        <p><h1>KEYFRAMES</h1></p>
+        <p><h2 class="color1">15% : background-color: rgb(236, 84, 84);</h2></p>
+        <p><h2  class="color2">25% : background-color: rgb(149, 149, 149);</h2></p>
+        <p><h2 class="color3">45%: background-color: rgb(165, 24, 24);</h2></p>
+        <p><h2 class="color4">60%: background-color: rgb(149, 149, 149);</h2></p>
+        <p><h2 class="color5">75%: background-color: rgb(107, 0, 0);</h2></p>
+        <p><h2 class="color6">90%: background-color: rgb(149, 149, 149);</h2></p>
+        <p><h2 class="color7">100%: background-color: rgb(169, 169, 169);</h2></p>
+    </div>
+</body>
+</html>

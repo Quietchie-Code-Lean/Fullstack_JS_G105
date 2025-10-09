@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    margin: 1%;
+}
+.gallery{
+    height: 100%;
+    padding: 1%;
+    border: 1px solid black;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "abst4 abst3"
+    "abst1 abst1"
+    "abst2 abst2";
+}
+.abst-1{
+    background-image: url(https://cdn.pixabay.com/photo/2014/07/30/02/00/iceberg-404966_1280.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    grid-area: abst1;
+}
+.abst-2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/16/02/46/iceberg-990472_1280.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    grid-area: abst2;
+}
+.abst-3{
+    background-image: url(https://media.istockphoto.com/id/996101302/pt/foto/weather-eroded-iceberg-in-wilhemina-bay-antarctica.jpg?s=1024x1024&w=is&k=20&c=Y1hmlbTnU2vq4jFY1yN6p4GEYb3T3ELggpwir-flt8Q=);
+    background-size: cover;
+    border: 1px solid black;
+    grid-area: abst3;
+}
+.abst-4{
+    background-image: url(https://cdn.pixabay.com/photo/2022/03/16/21/01/gentoo-penguin-7073391_1280.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    grid-area: abst4;
+}
+
+@media (min-width: 768px){
+    .gallery{
+        grid-template-areas: 
+    "abst2 abst2"
+    "abst1 abst4"
+    "abst3 abst3";
+    }
+}
+@media (min-width: 992px){
+    .gallery{
+        grid-template-areas: 
+    "abst1 abst1"
+    "abst3 abst2"
+    "abst4 abst4";
+    }
+}

@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.bg{
+    background-position: center;
+    background-size: cover;
+}
+.gallery{
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "a a a a"
+    "b b c c"
+    "b b c c"
+    "d d d d";
+}
+.image1{
+    grid-area: a;
+    background-image: url(https://picsum.photos/id/443/200/300);
+}
+.image2{
+    grid-area: b;
+    background-image: url(https://picsum.photos/id/330/200/300);
+}
+.image3{
+    grid-area: c;
+    background-image: url(https://picsum.photos/id/325/200/300);
+}
+.image4{
+    grid-area: d;
+    background-image: url(https://picsum.photos/id/434/200/300);
+}

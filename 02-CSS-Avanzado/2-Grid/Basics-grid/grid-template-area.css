@@ -1,0 +1,39 @@
+body{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+}
+.grid-container{
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "a a a a"  
+    "a a a a"
+    "b b c c"
+    "b b c c"
+    "b b c c"
+    "b b c c"
+    "d d d d";
+}
+.header{
+    grid-area: a;
+    background-color: goldenrod;
+}
+.main{
+    grid-area: b;
+    background-color: darkgoldenrod;
+}
+.rightsb{
+    grid-area: c;
+    background-color: gold;
+}
+.footer{
+    grid-area: d;
+    background-color: yellow;
+}
+/* 
+GRID AREA: con grid-area, le daremos un nombre a cada una de las areas de nuestra pagina web
+Con Grid-Template-Areas: especificaremos que parte del layout va a ocupar cada unas de las areas que se definieron anteriormente.
+ */

@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.btn{
+    background-color: yellowgreen;
+    color:black;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media (min-width: 576px){
+    .btn{
+    background-color: yellowgreen;
+    color:black;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}  
+}
+@media (min-width: 768px){
+    .btn{
+    background-color: yellowgreen;
+    color:black;
+    border-radius: 25px;
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+}
+@media (min-width: 992px){
+    .btn{
+    background-color: yellowgreen;
+    color: whitesmoke;
+    border-radius: 25px;
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+}
+@media (min-width: 1200px){
+    .btn{
+    background-color: yellowgreen;
+    color: orange;
+    border-radius: 25px;
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+}

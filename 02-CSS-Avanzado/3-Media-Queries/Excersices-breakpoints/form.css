@@ -1,0 +1,17 @@
+.filtros{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.filtros div{
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px){
+    .filtros{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}

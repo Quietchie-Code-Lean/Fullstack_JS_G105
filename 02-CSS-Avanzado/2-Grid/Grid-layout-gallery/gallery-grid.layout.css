@@ -1,0 +1,46 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 15px;
+}
+.grid-item-1{
+    border: solid 1px black;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+}
+.grid-item-2{
+    border: solid 1px black;
+    background-image: url(https://picsum.photos/id/40/200/300);
+    background-size: cover;
+}
+.grid-item-3{
+    border: solid 1px black;
+    background-image: url(https://picsum.photos/id/118/200/300);
+    background-size: cover;
+}
+.grid-item-4{
+    border: solid 1px black;
+    background-image: url(https://picsum.photos/id/135/200/300);
+    background-size: cover;
+}
+.grid-item-5{
+    border: solid 1px black;
+    background-image: url(https://picsum.photos/id/112/200/300);
+    background-size: cover;
+}
+.grid-item-6{
+    border: solid 1px black;
+    background-image: url(https://picsum.photos/id/137/200/300);
+    background-size: cover;
+}
+.grid-item-7{
+    border: solid 1px black;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+}
+.grid-item-8{
+    border: solid 1px black;
+    background-image: url(https://picsum.photos/id/35/200/300);
+    background-size: cover;
+}

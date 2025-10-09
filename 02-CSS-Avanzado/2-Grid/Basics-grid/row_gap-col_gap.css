@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    column-gap: 20px; 
+    height: 500px;
+    justify-items: center;
+    align-items: stretch;
+}
+
+.grid-item{
+    border: solid 2px orangered;
+    background-color: orange;
+}
+
