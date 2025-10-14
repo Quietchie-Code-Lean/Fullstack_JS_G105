@@ -1,51 +1,83 @@
-html, body, h3, p{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
+}
+html, body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* CONTAINER BODY */
+
+/* ----------------CONTAINER BODY --------------*/
 
 .container-body{
+    display: flex;
     width: 100vw;
     height: 100vh;
-    display: flex;
 }
 
-
-
-/* CHAT PANEL */
+/* --------------------CHAT PANEL ----------------------*/
 .contact-panel{
-    width: 30vw;
-    height: 100vh;
-    border-right: 1px solid black;
-}
-
-
-/* HEAD CHAT */
-.head-chat{
-    border-bottom: 1px solid black;
-    padding: 10px;
-    /* height: 12vh; */
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    border-right: 1px solid black;
     
 }
 
+
+/* ------------------HEAD CHAT ---------------------*/
+.head-chat{
+    /* height: 12vh; */     /* This way to set scheme or layout it generated me difficults to arrange the project in a more fluid way */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    flex-shrink: 0;
+}
+
+/* font size <h3> and <p> within Head-chat */
+.head-chat h3{
+    font-size: 0.9rem;
+}
+.head-chat p{
+    font-size: 0.65rem;
+}
+
 .head-chat img{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
 }
 .icons{
     display: flex;
+    margin-right: 20px;
+    gap: 1rem;
 }
-.box-head-chat{
+
+.icons i{
+    color: #acaeaf;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icons i:hover{
+    color: #979a9c;
+    transform: scale(1.1);
+}
+
+.profile{
     display: flex;
     margin: auto;
     width: 100%;
+    margin-left: 1.25rem;
 }
-/* NEW CHAT BUTTON */
+.profile div{
+    margin-left: 0.6rem;
+}
+/* -------------NEW CHAT BUTTON ----------------*/
 
 .new-chat {
     display: flex;
@@ -54,50 +86,76 @@ html, body, h3, p{
     width: 100%;
     /* height: 12vh; */
     border-bottom: 1px solid black;
+    flex-shrink: 0;
 }
 .new-chat button{
     background-color: #A491D2;
     color: white;
     border: none;
-    width: 150px;
-    height: 40px;
+    width: 11rem;
+    height: 2.5rem;
     text-align: center;
-    padding: 10px;
+    margin: 2rem;
+    transition: background-color 0.5s, transform 0.5s;
 }
+
 .new-chat button:hover {
     background-color: #CDC3E6;
+    transform: scale(1.05);
 }
 /* .new-chat button:focus {
     background-color: #BEC1BB;
 } */
 
 
-/* CHATS */
+/* -------------------CHATS----------------- */
+
+.chats-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+}
 
 .chats{
-    padding: 10px;
+  /*   padding: 10px; */
+    padding-left: 1.8rem;
     border-bottom: 1px solid black;
     display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    margin: auto;
 }
 
 .chats img{
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    padding-left: 10px;
 }
 .chat-text{
     margin: auto;
+    margin-left: 1.5rem;
 }
-/* CONSOLE MAIN */
+
+/* font sizeb <h3> and <p> within chats*/
+.chat-text h3{
+    font-size: 1rem;
+}
+.chat-text p{
+    font-size: 0.8rem;
+}
+
+
+/* ----------------- CONSOLE MAIN ---------------- */
 
 .console-main{
-    background-color: #E8EBE4;
+    /* background-color: #E8EBE4;  this color isn´t the original applyed in the model provided by desafio latam */
+    background-color: #f9f8f8;  /* I´ve chosen this one with "https://www.site24x7.com/es/tools/selector-de-codigo-color.html"*/
     display: flex;
     align-items: center;
     justify-content: center;
     width: 70vw;
-    height: 100vh;
+    height: 100%;
 }
 .box-logo{
     width: 100%;
@@ -113,9 +171,25 @@ html, body, h3, p{
     background-image: url(../img/hand.png);
     background-position: center;
     background-size: cover;
-
+    transition: transform 0.5s;
+}
+.logo:hover {
+    transform: scale(1.05);
 }
 .text-logo{
     text-align: center;
-        
+    gap: 0.5rem;
 }
+
+/* font size <h1> and <p> within text-logo*/
+.text-logo h1{
+    color: black;
+    font-size: 2.8rem;
+    
+}
+.text-logo p{
+    color: black;
+    font-size: 1rem;
+    max-width: 40vw;
+}
+
