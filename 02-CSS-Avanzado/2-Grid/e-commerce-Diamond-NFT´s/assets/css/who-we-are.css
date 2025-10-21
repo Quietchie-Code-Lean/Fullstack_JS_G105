@@ -1,0 +1,59 @@
+/* -------- RESET -------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    color: #1b3686;
+}
+
+/* -------- CONTAINER -------- */
+.about-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url(../imgs/crown-diamond-logo-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* -------- BOX -------- */
+.about-box {
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(27, 54, 134, 0.2);
+    width: 450px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+.back-link {
+    text-decoration: none;
+    color: coral;
+    font-weight: bold;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
