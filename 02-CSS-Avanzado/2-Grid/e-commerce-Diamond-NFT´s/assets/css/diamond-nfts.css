@@ -1,0 +1,676 @@
+/*  -----------RESET-------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html, body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #1b3686;
+}
+
+/* ---------------GRID CONTAINER-------------- */
+.grid-container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    "top top top top top top"
+    "aside gall gall gall gall gall"
+    "foot foot foot foot foot foot";
+}
+/* ---------------TOP NAVBAR-------------- */
+.top-navbar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    grid-area: top;
+    background-color: lightcyan;
+}
+.top-navbar a{
+    text-decoration: none;
+    color: #1b3686;
+}
+.brand{
+    display: flex;
+}
+.brand img{
+    height: 2rem;
+    width: 2rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.2s ease;
+}
+.search input:focus {
+    border: 1px solid #1b3686;
+}
+
+.loggin{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.loggin img{
+    height: 2rem;
+    width: 2rem;
+}
+
+/* ---------------ASIDE BAR-------------- */
+.aside-bar{
+    height: 84vh;
+    grid-area: aside;
+    background-color: azure;
+    padding: 1rem;
+}
+.aside-bar a{
+    color: #1b3686;
+    text-decoration: none;
+}
+.aside-flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-top{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.flex-top a{
+    text-decoration: none;  
+    margin: auto;
+}
+.flex-top a:hover{
+    color: coral;
+}
+/* ------- SUB-MENU DROPDOWN--------------- */
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+}
+
+.sub-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    padding: 0 0.5rem;
+    border-radius: 8px;
+}
+.menu-item:hover .sub-menu {
+    display: flex;
+    max-height: 180px;
+    opacity: 1;
+    padding: 0.5rem;
+}
+
+.sub-menu a {
+    font-size: 0.9rem;
+    color: #1b3686;
+    text-decoration: none;
+}
+
+.sub-menu a:hover {
+    color: coral;
+}
+
+/* ------ASIDE BOTTOM---- */
+.flex-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.filter-panel{
+    display: none;
+}
+.bottom {
+    border-top: 1px solid black;
+    padding: 1rem;
+}
+
+.bottom a{
+    text-decoration: none;
+    
+}
+.bottom a:hover{
+    color: coral;
+}
+
+
+/* ---------------PRODUCT GALLERY-------------- */
+.product-gallery{
+    height: 84vh;
+    grid-area: gall;
+}
+.container-product{
+    padding: 0.8rem;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(20rem, auto);
+    gap: 0.8rem;
+    overflow-y: auto;
+    min-height: 0
+}
+.grid-item{
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px rgba(27, 54, 134, 0.2);
+    border-radius: 1rem;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+/* ---------CARDS--------- */
+
+.card-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.8rem;
+}
+
+.card-top{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-top: 0.6rem;
+    
+}
+
+.card-content {
+    padding: 0 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 2rem;
+    background-color: #1b3686;
+    color: white;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.5s ease;
+    margin-top: auto;
+    margin-bottom: 0.6rem;
+}
+
+.card-button:hover {
+    background-color: coral;
+}
+
+/* ---------------DOWN FOOTER-------------- */
+.down-footer{
+    display: flex;
+    height: 8vh;
+    grid-area: foot;
+    background-color: lightcyan;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-footer a{
+    color: #1b3686;
+    text-decoration: none;
+}
+
+
+/* ---------------IMAGES abstract-------------- */
+.abs1{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/abstract/abstract-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.abs1:hover{
+    transform: scale(1.04);
+}
+.abs2{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/abstract/abstract-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.abs2:hover{
+    transform: scale(1.04);
+}
+.abs3{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/abstract/abstract-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.abs3:hover{
+    transform: scale(1.04);
+}
+.abs4{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/abstract/abstract-4.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.abs4:hover{
+    transform: scale(1.04);
+}
+.abs5{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/abstract/abstract-5.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.abs5:hover{
+    transform: scale(1.04);
+}
+.abs6{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/abstract/abstract-6.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.abs6:hover{
+    transform: scale(1.04);
+}
+
+/* ---------------IMAGES animation-------------- */
+.ani1{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/animation/anime-6.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ani1:hover{
+    transform: scale(1.04);
+}
+.ani2{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/animation/anime-9.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ani2:hover{
+    transform: scale(1.04);
+}
+.ani3{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/animation/anime-3.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ani3:hover{
+    transform: scale(1.04);
+}
+.ani4{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/animation/anime-4.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ani4:hover{
+    transform: scale(1.04);
+}
+.ani5{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/animation/anime-5.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ani5:hover{
+    transform: scale(1.04);
+}
+.ani6{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/animation/anime-7.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ani6:hover{
+    transform: scale(1.04);
+}
+/* ---------------IMAGES Futurism-------------- */
+.fut1{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/futurist/futurism-1.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.fut1:hover{
+    transform: scale(1.04);
+}
+.fut2{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/futurist/futurism-2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.fut2:hover{
+    transform: scale(1.04);
+}
+.fut3{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/futurist/futurism-3.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.fut3:hover{
+    transform: scale(1.04);
+}
+.fut4{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/futurist/futurism-4.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.fut4:hover{
+    transform: scale(1.04);
+}
+.fut5{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/futurist/futurism-5.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.fut5:hover{
+    transform: scale(1.04);
+}
+.fut6{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/futurist/futurism-6.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.fut6:hover{
+    transform: scale(1.04);
+}
+
+/* ---------------IMAGES Surrealist-------------- */
+.sub1{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/surrealist/surrealist-8.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.sub1:hover{
+    transform: scale(1.04);
+}
+.sub2{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/surrealist/surrealist-9.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.sub2:hover{
+    transform: scale(1.04);
+}
+.sub3{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/surrealist/surrealist-9.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.sub3:hover{
+    transform: scale(1.04);
+}
+.sub4{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/surrealist/surrealist-4.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.sub4:hover{
+    transform: scale(1.04);
+}
+.sub5{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/surrealist/surrealist-5.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.sub5:hover{
+    transform: scale(1.04);
+}
+.sub6{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/surrealist/surrealist-6.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.sub6:hover{
+    transform: scale(1.04);
+}
+
+/* ---------------IMAGES Nature-------------- */
+.nat1{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/nature/nature-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.nat1:hover{
+    transform: scale(1.04);
+}
+.nat2{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/nature/nature-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.nat2:hover{
+    transform: scale(1.04);
+}
+.nat3{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/nature/nature-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.nat3:hover{
+    transform: scale(1.04);
+}
+.nat4{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/nature/nature-4.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.nat4:hover{
+    transform: scale(1.04);
+}
+.nat5{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/nature/nature-5.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.nat5:hover{
+    transform: scale(1.04);
+}
+.nat6{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/nature/nature-6.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.nat6:hover{
+    transform: scale(1.04);
+}
+
+/* ---------------IMAGES Minimalist-------------- */
+.min1{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/minimalist/minimalist-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.min1:hover{
+    transform: scale(1.04);
+}
+.min2{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/minimalist/minimalist-2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.min2:hover{
+    transform: scale(1.04);
+}
+.min3{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/minimalist/minimalist-3.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.min3:hover{
+    transform: scale(1.04);
+}
+.min4{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/minimalist/minimalist-4.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.min4:hover{
+    transform: scale(1.04);
+}
+.min5{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/minimalist/minimalist-5.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.min5:hover{
+    transform: scale(1.04);
+}
+.min6{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/minimalist/minimalist-6.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.min6:hover{
+    transform: scale(1.04);
+}
+
+/* ---------------IMAGES Retrat-------------- */
+.ret1{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/retrat/retrat-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ret1:hover{
+    transform: scale(1.04);
+}
+.ret2{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/retrat/retrat-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ret2:hover{
+    transform: scale(1.04);
+}
+.ret3{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/retrat/retrat-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ret3:hover{
+    transform: scale(1.04);
+}
+.ret4{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/retrat/retrat-4.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ret4:hover{
+    transform: scale(1.04);
+}
+.ret5{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/retrat/retrat-5.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ret5:hover{
+    transform: scale(1.04);
+}
+.ret6{
+    border-radius: 0.8rem;
+    background-image: url(../imgs/retrat/retrat-6.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.ret6:hover{
+    transform: scale(1.04);
+}
