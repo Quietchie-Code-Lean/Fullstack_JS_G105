@@ -213,6 +213,16 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
+.divBox2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divBoxAdd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .divBox img{
     width: 150px;
