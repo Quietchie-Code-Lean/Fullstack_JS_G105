@@ -68,26 +68,29 @@ if (event.key === 'a' || event.key === "A") {
 
 /* EXERCISE THREE - Number 4:*/
 
+let setColor = "";
 let divBoxAdd = document.querySelector(".divBoxAdd")
 
 document.addEventListener("keydown", function(event) {
 if (event.key === "q" || event.key === "Q") {
-    addColorElement("purple")
+    setColor = "purple";
+    addColorElement(setColor);
 } else if (event.key === "w" || event.key === "W") {
-    addColorElement("gray")
+    setColor = "gray";
+    addColorElement(setColor);
 }else if (event.key === "e" || event.key === "E") {
-    addColorElement("brown")
+        setColor = "brown";
+        addColorElement(setColor);
 }});
 
 
-function addColorElement(){
-    elements = divBoxAdd.querySelectorAll("div")
-    if(elements.lenght < 0){
-        divBoxAdd.style.backgroundColor = setColor;
-    }else{
+function addColorElement(setColor){
         addedBox = document.createElement("div");
-        addedBox.textContent("Added Hello Javascript6")
-        divBoxAdd.style.backgroundColor = setColor;
+        addedBox.textContent = "Added JavaScript_6";
+        addedBox.style.width = "200px";
+        addedBox.style.height = "200px";
+        addedBox.style.backgroundColor = setColor;
+        addedBox.style.margin = "10px"
+        divBoxAdd.appendChild(addedBox);
     }
     
-}
