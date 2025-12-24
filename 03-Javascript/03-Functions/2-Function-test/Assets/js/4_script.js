@@ -94,3 +94,4 @@ function addColorElement(setColor){
         divBoxAdd.appendChild(addedBox);
     }
     
+    
