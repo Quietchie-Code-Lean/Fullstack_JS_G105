@@ -25,7 +25,7 @@ This repo represents not only the code I write, but also the path I’m followin
 
 ---
 
-## 1. Intro to Web Development
+## 1. INTRO TO WEB DEVELOPMENT
 ### HTML5:
 -
     #### Projects Html:
@@ -72,7 +72,7 @@ This repo represents not only the code I write, but also the path I’m followin
   
 
 
-## 2. Advanced CSS
+## 2. ADVANCED CSS
 ### Flexbox:
 -
     #### Projects Flexbox:
@@ -84,7 +84,7 @@ This repo represents not only the code I write, but also the path I’m followin
 ### Grid:
 -
     #### Projects Grid:
-    - [Project 1: Basics-Grid]([https://github.com/Quietchie-Code-Lean/](https://github.com/Quietchie-Code-Lean/Basics-grid))
+    - [Project 1: Basics-Grid](https://github.com/Quietchie-Code-Lean/Basics-grid)
     - [Project 2: Grid-Lauout-galleries](https://github.com/Quietchie-Code-Lean/Grid-layout-galleries)
     
 
@@ -102,5 +102,40 @@ This repo represents not only the code I write, but also the path I’m followin
     - [Project 2: Transform-CSS](https://github.com/Quietchie-Code-Lean/Transform-css)
     - [Project 3: Animations-CSS](https://github.com/Quietchie-Code-Lean/Animations-CSS)
 
+## 3. JAVASCRIPT
+### Intro Javascript:
+  
+- [Project 1: Basics Javascript](https://github.com/Quietchie-Code-Lean/-Basics-Javascript)
+- [Project 2: Calculating Total](https://github.com/Quietchie-Code-Lean/Calculating-Total.js)
+
+    
+### Conditions:
+   
+- [Project 1: Condition Logical Operators](https://github.com/Quietchie-Code-Lean/Conditions-Operatos.js)
+- [Project 2: Conditions Test](https://github.com/Quietchie-Code-Lean/Condition-tests)
+
+### Functions:
+
+- [Project 1: Basics Functions](https://github.com/Quietchie-Code-Lean/Basics_Function.js)
+- [Project 2: Prioritize Tasks](https://github.com/Quietchie-Code-Lean/Prioritize_tasks.js)
+- [Project 3: Functions Test](https://github.com/Quietchie-Code-Lean/Functions_Test.js)
+
+
+### Arrays and Objects:
+
+- [Project 1: Basics Array and Objects](https://github.com/Quietchie-Code-Lean/Basics-ArraysAndObjects)
+- [Project 2: Book_Lab_JS](https://github.com/Quietchie-Code-Lean/Book_Lab-JS)
+- [Project 3: Real Estate](https://github.com/Quietchie-Code-Lean/Real-State-Project)
+
+### Array Methods:
+
+- [Project 1: Basics Methods](https://github.com/Quietchie-Code-Lean/Array_Object_Methods)
+- [Project 2: Hotel Services Management](https://github.com/Quietchie-Code-Lean/Hotel_services_Management)
+- [Project 3: TO-DO List](https://github.com/Quietchie-Code-Lean/TO-DO-list)
+
+### Api Rest:
+
+- [Project 1: Basics API Rest](https://github.com/Quietchie-Code-Lean/API_Basics)
+- [Project 2: Currency Exchange](https://github.com/Quietchie-Code-Lean/Currency_Exchange)
 
 
