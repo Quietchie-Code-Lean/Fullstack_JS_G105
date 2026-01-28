@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO list Challenge</title>
+    <link rel="stylesheet" href="./assets/css/template-JS7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <img src="./assets/imgs/javascript-logo-removebg-preview.png" alt="JavaScript Logo" class="logo">
+            <div class="header-text">
+                <h1>Learning JavaScript - Arrays and Objects Methods with Modification of DOM</h1>
+                <p>Visual practice & notes</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="card">
+            <!-- content -->
+
+            <h2>Challenge API rest:</h2>
+            <p>
+                Applying the concepts and tools learned so far, in this test you must
+                program a currency converter from an amount in Chilean pesos. For this it will be
+                It is necessary to consult the mindicador.cl API using the fetch method.
+            </p>
+
+           
+            <!-- Card code block example -->
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="code-title"><h2>National Currency Converter:</h2></span>
+                </div>
+
+                <div class="center">
+
+                    
+                    
+                    <div class="converter-container">
+                        <label for="input_convert">Insert Amount:</label>
+                        <input type="number" id="input_converter">
+                        
+                        <label for="currency_select">Select currency:</label>
+                        
+                        <select id="currency_Select">
+                            <option value="">-- Choose currency --</option>
+                        </select>
+
+                        <button type="button" id="converter" class="btn-converter">CONVERT</button>
+
+                        <div class="output-container" id="output-converter"><p>OUTPUT:</p></div>
+
+                    </div>
+                    <div class="graph">
+                        <canvas id="myChart"></canvas>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
+    
+    <footer class="main-footer">
+        <p>Leandro Funes <a href="https://github.com/Quietchie-Code-Lean"><i class="fa-brands fa-square-github fs-xxl"></i></a> Practice file Fullstack_JS G105</p>
+    </footer>
+    
+    
+   <!--  external script  -->
+    <script src="./assets/js/04-Plugins_javascript.js"></script>
+
+</body>
+</html>
