@@ -1,0 +1,11 @@
+:root {
+    --primary: #1e40af;    
+    --secondary: #38bdf8;  
+    --accent: #22c55e;      
+}
+
+.container-act{
+    border-top: 1px solid #1e40af;
+    margin-top: 2rem;
+
+}

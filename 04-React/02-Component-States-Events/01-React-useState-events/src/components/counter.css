@@ -1,0 +1,23 @@
+:root {
+    --primary: #1e40af;    
+    --secondary: #38bdf8;  
+    --accent: #22c55e;      
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+/* .btn-container button{
+    padding: 0.5rem;
+    background-image: linear-gradient(90deg, var(--primary), var(--accent));    
+}
+
+.btn-container button:hover{
+    padding: 0.5rem;
+    background-image: linear-gradient(180deg, var(--accent), var(--primary));    
+}
+ */
