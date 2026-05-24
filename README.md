@@ -16,12 +16,12 @@ This repo represents not only the code I write, but also the path I’m followin
 ---
 
 ## 📑 Main Index
-1. [Intro to Web Development](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/01-Intro-desarrollo-web)  
-2. [Advanced CSS](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/02-CSS-Avanzado)  
-3. [JavaScript](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/03-Javascript)  
-4. [React](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React)  
-5. [SQL](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/05-SQL)  
-6. [Backend with Node.js & Express](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/06-Backend-Node-Express)  
+1. [Intro to Web Development](#1-intro-to-web-development)  
+2. [Advanced CSS](#2-advanced-css)  
+3. [JavaScript](#3-javascript)  
+4. [React](#4-react)  
+5. [SQL](#5-sql)  
+6. [Backend with Node.js & Express](#6-backend-with-nodejs--express) 
 
 ---
 
@@ -61,7 +61,7 @@ This repo represents not only the code I write, but also the path I’m followin
     #### GitHub - GitHub-Pages:
     - [Final Project - Portfolio-Developer](https://github.com/Quietchie-Code-Lean/Portfolio-Developer)
     - [Forked project - fdsw-github](https://github.com/Quietchie-Code-Lean/fdsw-github)
-    - [Project 3: ***** ](link-al-repo)
+    
 
 ### Colavorativo & Vercel:  
  -
@@ -137,5 +137,35 @@ This repo represents not only the code I write, but also the path I’m followin
 
 - [Project 1: Basics API Rest](https://github.com/Quietchie-Code-Lean/API_Basics)
 - [Project 2: Currency Exchange](https://github.com/Quietchie-Code-Lean/Currency_Exchange)
+
+
+## 4. REACT
+
+### Intro to React
+- [Project 1: Module React Migration - Fundamentals](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/01-Intro-React)
+- [Project 2: Import React Boostrap - Fundamentals](link-al-repo)
+
+### Components, State & Events
+- [Project 1: Components, State & Events](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/02-Component-States-Events)
+- [Project 2: User Registration Lite](link-al-repo)
+
+### Dynamic Rendering
+- [Dynamic Rendering & Component Composition](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/03-Dynamic-Rendering-Components)
+
+### API Consumption
+- [API Consumption with React](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/04-Consumption-APIs-React)
+
+### React Router
+- [React Router I](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/05-React-Router-I)
+- [React Router II](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/07-React-Router-II)
+
+### Global State Management
+- [React Context](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/06-Context)
+
+### Authentication
+- [JWT Authentication](https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/08-JWT)
+
+### Final Project
+- [React + Tailwind Pizzeria]([https://github.com/TuUsuario/Fullstack_JS_G105/tree/main/04-React/00-React-Tailwind-Pizzeria](https://github.com/Quietchie-Code-Lean/React-Tailwind-Pizzeria_Mamma_Mia))
 
 
